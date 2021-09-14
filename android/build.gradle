@@ -1,0 +1,35 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.2.1'
+        classpath 'com.google.gms:google-services:4.3.5'
+
+        // ADD THIS:
+        classpath "org.javassist:javassist:3.27.0-GA"
+        // ADD THE REFERENCE TO THE GRADLE PLUGIN:
+        classpath files("../node_modules/@ionic-enterprise/intune/android/ms-intune-app-sdk-android/GradlePlugin/com.microsoft.intune.mam.build.jar")
+    }
+}
+apply from: "variables.gradle"
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven {
+            // ADD THESE TWO LINES:
+            url 'https://pkgs.dev.azure.com/MicrosoftDeviceSDK/DuoSDK-Public/_packaging/Duo-SDK-Feed/maven/v1'
+            name 'Duo-SDK-Feed'
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
