@@ -9,7 +9,8 @@ import {
 import { useCallback, useEffect, useState } from "react";
 import "./Home.css";
 
-import IntuneMAM from "../IntuneMAM";
+import { IntuneMAM } from "@ionic-enterprise/intune";
+
 import { useHistory } from "react-router";
 
 const Login: React.FC = () => {
@@ -25,13 +26,13 @@ const Login: React.FC = () => {
   });
 
   const login = useCallback(async () => {
-    var authInfo = await (IntuneMAM as any).acquireToken({
+    var authInfo = await IntuneMAM.acquireToken({
       scopes: ["https://graph.microsoft.com/.default"],
     });
 
     console.log("Got auth info", authInfo);
 
-    await (IntuneMAM as any).registerAndEnrollAccount({
+    await IntuneMAM.registerAndEnrollAccount({
       upn: authInfo.upn,
     });
 

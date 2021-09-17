@@ -1,9 +1,24 @@
-import { IonButton, IonContent, IonHeader, IonPage, IonTitle, IonToolbar, useIonViewWillEnter } from '@ionic/react';
-import { useCallback, useEffect, useState } from 'react';
-import { useHistory } from 'react-router';
-import ExploreContainer from '../components/ExploreContainer';
-import IntuneMAM, { IntuneMAMAppConfig, IntuneMAMGroupName, IntuneMAMPolicy, IntuneMAMUser, IntuneMAMVersionInfo } from '../IntuneMAM';
-import './Home.css';
+import {
+  IonButton,
+  IonContent,
+  IonHeader,
+  IonPage,
+  IonTitle,
+  IonToolbar,
+  useIonViewWillEnter,
+} from "@ionic/react";
+import { useCallback, useEffect, useState } from "react";
+import { useHistory } from "react-router";
+import ExploreContainer from "../components/ExploreContainer";
+import {
+  IntuneMAM,
+  IntuneMAMAppConfig,
+  IntuneMAMGroupName,
+  IntuneMAMPolicy,
+  IntuneMAMUser,
+  IntuneMAMVersionInfo,
+} from "@ionic-enterprise/intune";
+import "./Home.css";
 
 const Home: React.FC = () => {
   const history = useHistory();
@@ -19,11 +34,11 @@ const Home: React.FC = () => {
     async function getInitialData() {
       setVersion(await IntuneMAM.sdkVersion());
 
-      IntuneMAM.addListener('appConfigChange', () => {
-        console.log('App config change here');
+      IntuneMAM.addListener("appConfigChange", () => {
+        console.log("App config change here");
       });
-      IntuneMAM.addListener('policyChange', () => {
-        console.log('Policy change here');
+      IntuneMAM.addListener("policyChange", () => {
+        console.log("Policy change here");
       });
     }
     getInitialData();
@@ -33,15 +48,19 @@ const Home: React.FC = () => {
     async function getToken() {
       if (user && user.upn) {
         try {
-          const tokenInfo = await (IntuneMAM as any).acquireTokenSilent({
+          const tokenInfo = await IntuneMAM.acquireTokenSilent({
             scopes: ["https://graph.microsoft.com/.default"],
-            ...user
+            ...user,
           });
           setTokenInfo(tokenInfo);
-          console.log('Got token info', tokenInfo);
+          console.log("Got token info", tokenInfo);
         } catch {
-          console.error('Unable to silently acquire token, getting interactive');
-          const tokenInfo = await (IntuneMAM as any).acquireToken();
+          console.error(
+            "Unable to silently acquire token, getting interactive"
+          );
+          const tokenInfo = await IntuneMAM.acquireToken({
+            scopes: ["https://graph.microsoft.com/.default"],
+          });
           setTokenInfo(tokenInfo);
         }
       }
@@ -74,7 +93,7 @@ const Home: React.FC = () => {
     if (user) {
       await IntuneMAM.deRegisterAndUnenrollAccount(user);
     }
-    history.replace('/');
+    history.replace("/");
   }, [user]);
 
   return (
@@ -90,15 +109,24 @@ const Home: React.FC = () => {
             <IonTitle size="large">Blank</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <h2>{user?.upn || 'No user'}</h2>
+        <h2>{user?.upn || "No user"}</h2>
         <h5>Token info:</h5>
-        <textarea style={{ height: '200px', width: '100%', display: 'block'}} value={JSON.stringify(tokenInfo ?? {}, null, 2)} />
-        <h5>Intune MAM Version: {version?.version || 'No version'}</h5>
-        <h5>Group name: {groupName?.value || 'No group name'}</h5>
+        <textarea
+          style={{ height: "200px", width: "100%", display: "block" }}
+          value={JSON.stringify(tokenInfo ?? {}, null, 2)}
+        />
+        <h5>Intune MAM Version: {version?.version || "No version"}</h5>
+        <h5>Group name: {groupName?.value || "No group name"}</h5>
         <h5>Policy:</h5>
-        <textarea style={{ height: '200px', width: '100%', display: 'block'}} value={JSON.stringify(policy ?? {}, null, 2)} />
+        <textarea
+          style={{ height: "200px", width: "100%", display: "block" }}
+          value={JSON.stringify(policy ?? {}, null, 2)}
+        />
         <h5>App Config:</h5>
-        <textarea style={{ height: '200px', width: '100%', display: 'block'}} value={JSON.stringify(appConfig ?? {}, null, 2)} />
+        <textarea
+          style={{ height: "200px", width: "100%", display: "block" }}
+          value={JSON.stringify(appConfig ?? {}, null, 2)}
+        />
         <IonButton onClick={showConsole}>Show Diagnostics Console</IonButton>
         <IonButton onClick={logout}>Log out</IonButton>
       </IonContent>
