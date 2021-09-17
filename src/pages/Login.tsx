@@ -1,9 +1,17 @@
-import { IonButton, IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import { useCallback, useEffect, useState } from 'react';
-import './Home.css';
+import {
+  IonButton,
+  IonContent,
+  IonHeader,
+  IonPage,
+  IonTitle,
+  IonToolbar,
+} from "@ionic/react";
+import { useCallback, useEffect, useState } from "react";
+import "./Home.css";
 
-import IntuneMAM from '../IntuneMAM';
-import { useHistory } from 'react-router';
+import { IntuneMAM } from "@ionic-enterprise/intune";
+
+import { useHistory } from "react-router";
 
 const Login: React.FC = () => {
   const history = useHistory();
@@ -18,18 +26,27 @@ const Login: React.FC = () => {
   });
 
   const login = useCallback(async () => {
-    await IntuneMAM.loginAndEnrollAccount();
-    /*
+    var authInfo = await IntuneMAM.acquireToken({
+      scopes: ["https://graph.microsoft.com/.default"],
+    });
+
+    console.log("Got auth info", authInfo);
+
+    await IntuneMAM.registerAndEnrollAccount({
+      upn: authInfo.upn,
+    });
+
+    // await IntuneMAM.loginAndEnrollAccount();
+
     const user = await IntuneMAM.enrolledAccount();
 
     if (user.upn) {
-      console.log('Got user, going home');
-      setTimeout(() => history.replace('/home'), 500);
+      console.log("Got user, going home");
+      setTimeout(() => history.replace("/home"), 500);
     } else {
-      console.log('No user, logging in');
-      setTimeout(() => history.replace('/login'), 500);
+      console.log("No user, logging in");
+      setTimeout(() => history.replace("/login"), 500);
     }
-    */
   }, []);
 
   const showConsole = useCallback(async () => {

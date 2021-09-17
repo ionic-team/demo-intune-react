@@ -1,10 +1,17 @@
-import { IonButton, IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import { useHistory } from 'react-router';
-import { useCallback, useEffect } from 'react';
-import ExploreContainer from '../components/ExploreContainer';
-import './Home.css';
+import {
+  IonButton,
+  IonContent,
+  IonHeader,
+  IonPage,
+  IonTitle,
+  IonToolbar,
+} from "@ionic/react";
+import { useHistory } from "react-router";
+import { useCallback, useEffect } from "react";
+import ExploreContainer from "../components/ExploreContainer";
+import "./Home.css";
 
-import IntuneMAM from '../IntuneMAM';
+import { IntuneMAM } from "@ionic-enterprise/intune";
 
 const Splash: React.FC = () => {
   const history = useHistory();
@@ -14,11 +21,11 @@ const Splash: React.FC = () => {
       const user = await IntuneMAM.enrolledAccount();
 
       if (user.upn) {
-        console.log('Got user, going home');
-        setTimeout(() => history.replace('/home'), 500);
+        console.log("Got user, going home");
+        setTimeout(() => history.replace("/home"), 500);
       } else {
-        console.log('No user, logging in');
-        setTimeout(() => history.replace('/login'), 500);
+        console.log("No user, logging in");
+        setTimeout(() => history.replace("/login"), 500);
       }
     }
 
