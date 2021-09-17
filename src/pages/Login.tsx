@@ -18,8 +18,19 @@ const Login: React.FC = () => {
   });
 
   const login = useCallback(async () => {
-    await IntuneMAM.loginAndEnrollAccount();
     /*
+    var authInfo = await (IntuneMAM as any).acquireToken({
+      scopes: ["https://graph.microsoft.com/.default"]
+    });
+
+    console.log('Got auth info', authInfo);
+
+    await (IntuneMAM as any).registerAndEnrollAccount({
+      upn: authInfo.upn
+    });
+    */
+   await IntuneMAM.loginAndEnrollAccount();
+
     const user = await IntuneMAM.enrolledAccount();
 
     if (user.upn) {
@@ -29,7 +40,6 @@ const Login: React.FC = () => {
       console.log('No user, logging in');
       setTimeout(() => history.replace('/login'), 500);
     }
-    */
   }, []);
 
   const showConsole = useCallback(async () => {

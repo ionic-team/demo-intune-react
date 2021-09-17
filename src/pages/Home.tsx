@@ -8,6 +8,7 @@ import './Home.css';
 const Home: React.FC = () => {
   const history = useHistory();
 
+  const [tokenInfo, setTokenInfo] = useState<any>(null);
   const [user, setUser] = useState<IntuneMAMUser | null>(null);
   const [version, setVersion] = useState<IntuneMAMVersionInfo | null>(null);
   const [groupName, setGroupName] = useState<IntuneMAMGroupName | null>(null);
@@ -27,6 +28,27 @@ const Home: React.FC = () => {
     }
     getInitialData();
   }, []);
+
+  useEffect(() => {
+    async function getToken() {
+      if (user && user.upn) {
+        try {
+          const tokenInfo = await (IntuneMAM as any).acquireTokenSilent({
+            scopes: ["https://graph.microsoft.com/.default"],
+            ...user
+          });
+          setTokenInfo(tokenInfo);
+          console.log('Got token info', tokenInfo);
+        } catch {
+          console.error('Unable to silently acquire token, getting interactive');
+          const tokenInfo = await (IntuneMAM as any).acquireToken();
+          setTokenInfo(tokenInfo);
+        }
+      }
+    }
+
+    getToken();
+  }, [user]);
 
   useEffect(() => {
     async function getAppConfig() {
@@ -69,6 +91,8 @@ const Home: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <h2>{user?.upn || 'No user'}</h2>
+        <h5>Token info:</h5>
+        <textarea style={{ height: '200px', width: '100%', display: 'block'}} value={JSON.stringify(tokenInfo ?? {}, null, 2)} />
         <h5>Intune MAM Version: {version?.version || 'No version'}</h5>
         <h5>Group name: {groupName?.value || 'No group name'}</h5>
         <h5>Policy:</h5>
