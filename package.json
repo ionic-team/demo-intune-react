@@ -16,6 +16,7 @@
     "@types/react-router-dom": "^5.1.7",
     "cordova-android": "^10.1.1",
     "cordova-ios": "^6.2.0",
+    "cordova-plugin-add-swift-support": "2.0.2",
     "ionicons": "^5.4.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -70,7 +71,8 @@
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-keyboard": {},
       "@ionic-enterprise/intune": {},
-      "cordova-plugin-ionic-webview": {}
+      "cordova-plugin-ionic-webview": {},
+      "cordova-plugin-add-swift-support": {}
     },
     "platforms": [
       "android",
@@ -78,7 +80,7 @@
     ]
   },
   "devDependencies": {
-    "@ionic-enterprise/intune": "file:../enterprise-intune/packages/intune",
+    "@ionic-enterprise/intune": "^2.1.0",
     "cordova-plugin-device": "2.0.2",
     "cordova-plugin-ionic-keyboard": "^2.0.5",
     "cordova-plugin-ionic-webview": "^5.0.0",
