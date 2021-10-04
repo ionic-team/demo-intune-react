@@ -26,9 +26,7 @@ buildscript {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${cordovaConfig.KOTLIN_VERSION}"
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
-
         classpath "org.javassist:javassist:3.27.0-GA"
-        // ADD THE REFERENCE TO THE GRADLE PLUGIN:
         classpath files("./app/src/main/libs/com.microsoft.intune.mam.build.jar")
     }
 }

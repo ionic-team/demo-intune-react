@@ -14,40 +14,40 @@
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
-		FD21276C861040988231179C /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D1A4931DC43D4A19B251C /* CDVDevice.m */; };
-		88B23572CD5B4BD1AF107F3B /* CDVIonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C45A57E4DE43B39A290FAF /* CDVIonicKeyboard.m */; };
-		3A60F1F48AC94A2FB004918C /* CDVWKWebViewEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A11525065B84380BDEB7531 /* CDVWKWebViewEngine.m */; };
-		C2C36E86B2DA45E8B982ECB2 /* CDVWKWebViewUIDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CECF88267FE64311BB248304 /* CDVWKWebViewUIDelegate.m */; };
-		63F1AF86DBD443D3A3ECC974 /* CDVWKProcessPoolFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FFE8BFE98D430C90D2E6AA /* CDVWKProcessPoolFactory.m */; };
-		6393ECA334504B91BD952056 /* IONAssetHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0C51B38D5548A0B6B46006 /* IONAssetHandler.m */; };
-		9FE1E7ED38764684A6D4785D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F56A03BCE94B2F96B77F0D /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		B64FC5BC81D64D14ADCE2114 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBB52A4FC7849279EB7C3BA /* CDVSplashScreen.m */; };
-		43348E6C7F75482DA94E38AB /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 1649CAC0E8B3454FA8781940 /* CDVViewController+SplashScreen.m */; };
-		D3A40E140C154E1C80F6FA65 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 08496DF3DBE44D9CB02BEC2E /* CDVStatusBar.m */; };
-		52998F7DB2A1457C87D150E4 /* EnrollmentDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF3745E42244C328B038871 /* EnrollmentDelegate.swift */; };
-		66AAB80392F54B7B9FB2737E /* PolicyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A27F7847641EB840A5B73 /* PolicyDelegate.swift */; };
-		5F0368FC2AEF4A2289A0FA88 /* IntunePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA2DC4886BB45A0A13C52AF /* IntunePlugin.swift */; };
-		2B22B36BB463483BB9A0271F /* CAPPlugin.h in Resources */ = {isa = PBXBuildFile; fileRef = 182E57DD274044FDA5796AB1 /* CAPPlugin.h */; };
-		9D3747FE66264F7E86591A52 /* CAPPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = A9516E4C37E14852924F28D4 /* CAPPlugin.m */; };
-		BBE621ABE8424530BE8655D0 /* CAPPluginCall.h in Resources */ = {isa = PBXBuildFile; fileRef = A622FC77C5D444439992248C /* CAPPluginCall.h */; };
-		6E4D77DD9E5347DB9E20A0E0 /* CAPPluginCall.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BCD9BE7DC9499F85F31476 /* CAPPluginCall.m */; };
-		CF66353CE95142D28935EC42 /* CAPPluginCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50B4D7895474F559AF8134B /* CAPPluginCall.swift */; };
-		5DA06609E25B4570B56C8F63 /* IntuneMAMSwift.xcframework in Resources */ = {isa = PBXBuildFile; fileRef = F2EBACB36ACF446D947D7124 /* IntuneMAMSwift.xcframework */; };
-		0E0FCDD8C0994E25AAB86CF0 /* IntuneMAMSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F2EBACB36ACF446D947D7124 /* IntuneMAMSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		F3A5281EA49A424CB21703A9 /* IntuneMAMSwiftStub.xcframework in Resources */ = {isa = PBXBuildFile; fileRef = EB82DF47A1DE405E83A35690 /* IntuneMAMSwiftStub.xcframework */; };
-		974B0A576C274B55823BC619 /* IntuneMAMSwiftStub.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB82DF47A1DE405E83A35690 /* IntuneMAMSwiftStub.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		23C8C56096DF446181F4B1A0 /* MSAL.xcframework in Resources */ = {isa = PBXBuildFile; fileRef = 8831CA3639DB45689AAE5560 /* MSAL.xcframework */; };
-		CC40639793F843FEA58B29D2 /* MSAL.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8831CA3639DB45689AAE5560 /* MSAL.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		A9424F34C27E4F5789E78D1A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D385FFAD4DA45ADB43A765E /* AudioToolbox.framework */; };
-		E02A4A858E0846E4875FF2A7 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE09DED32516406A8B15ADB3 /* CoreServices.framework */; };
-		2C634B783BFE4274A30FEFCF /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186BB52649D749F0A5393B99 /* ImageIO.framework */; };
-		3E1AA543CA9041AAB2DEEFB5 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5DD2285DDE4F798753AE21 /* libc++.tbd */; };
-		ED91D738111D4CE3BAD71BEC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18693BB659E745A09715CB3E /* libsqlite3.tbd */; };
-		E2050B79C71D46A7AA484965 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E265E6EC1DB480B91C63CA6 /* LocalAuthentication.framework */; };
-		E76EB3711CE74F86A90C1CA9 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD89E3DF2D9A4B06ABB9C21D /* MessageUI.framework */; };
-		2F33FCBE32BC4D62AF8E49B9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA51C6A1FAA48A4BB4C7207 /* QuartzCore.framework */; };
-		024EA3932F9F4C0AB0DC56C6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4599172262964383AD3CA393 /* Security.framework */; };
-		796D5858FD8A4305938BF3C5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A31B2271D1FD43DE96D9F851 /* SystemConfiguration.framework */; };
+		E1645C7B92BD426E94596FB7 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = F039E2157B9C48F4B6BC8A9B /* CDVDevice.m */; };
+		F5B14A61E9F047B081756664 /* CDVIonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2617D91D927044EF93752DAF /* CDVIonicKeyboard.m */; };
+		541DF989AF0B48A092043030 /* CDVWKWebViewEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = C1668D98925046C79A126133 /* CDVWKWebViewEngine.m */; };
+		2829EF8A6F5D4AB28414B7A8 /* CDVWKWebViewUIDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0642770CE7B64316B31147D2 /* CDVWKWebViewUIDelegate.m */; };
+		C8DF833B5DD049DB9F92F1DD /* CDVWKProcessPoolFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E2718B443B4250AC1DE930 /* CDVWKProcessPoolFactory.m */; };
+		E695A434D3C54AC2963C906D /* IONAssetHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F631C6F63F2A40D8AA8CCBF8 /* IONAssetHandler.m */; };
+		E48F48EC8CBC4920B9F0E062 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17891E816B441EA9152602A /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		19E7D3D64910476E82FBF76B /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 47396CB84E3F430DB5DAAED5 /* CDVSplashScreen.m */; };
+		0C41C75F82844F678C967C65 /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = A4ADEF9320BA43B591B5C838 /* CDVViewController+SplashScreen.m */; };
+		855610E1A40042FABB252C96 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DEF5BA2A684BC7A2FE063F /* CDVStatusBar.m */; };
+		7453F4D290544D23824E1383 /* EnrollmentDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E979B69157E4C95BCAD517D /* EnrollmentDelegate.swift */; };
+		0AAE444D94214770A02C5F62 /* PolicyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B144ED6352384960A6518C5B /* PolicyDelegate.swift */; };
+		8082CB66908C47AEB4470B4A /* IntunePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C85DE4800C440A2B2503756 /* IntunePlugin.swift */; };
+		C7C8DC0FFAB14D85ACAD6C81 /* CAPPlugin.h in Resources */ = {isa = PBXBuildFile; fileRef = 23E295ED0E4C4F039EAE8B25 /* CAPPlugin.h */; };
+		5066A2DECC9444568D0E0252 /* CAPPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CBF547595942D1B9ED44A5 /* CAPPlugin.m */; };
+		949C2011AE3A4A22805D4828 /* CAPPluginCall.h in Resources */ = {isa = PBXBuildFile; fileRef = 93C302CB3027473690CC8BE4 /* CAPPluginCall.h */; };
+		FA8F1D8C7328476780BD1DC3 /* CAPPluginCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB7AF5B28BB43199CBAD8A7 /* CAPPluginCall.m */; };
+		B1A5793620C542EA869C1092 /* CAPPluginCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7600F9EFB6AA4A998B4BA0F0 /* CAPPluginCall.swift */; };
+		9895C1CE3B444B8E9FC5980F /* IntuneMAMSwift.xcframework in Resources */ = {isa = PBXBuildFile; fileRef = 1CDD256F1E344D508A59B505 /* IntuneMAMSwift.xcframework */; };
+		B905F0EDBF9A42E4AC4C7E7E /* IntuneMAMSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1CDD256F1E344D508A59B505 /* IntuneMAMSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		5F4F7E7B95B848EEB575773D /* IntuneMAMSwiftStub.xcframework in Resources */ = {isa = PBXBuildFile; fileRef = 6CF43D7A00D1441A9258D3CB /* IntuneMAMSwiftStub.xcframework */; };
+		650EEA2A715B40F89D9CC0FA /* IntuneMAMSwiftStub.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF43D7A00D1441A9258D3CB /* IntuneMAMSwiftStub.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		69E1B76C1A8E494C8514F25F /* MSAL.xcframework in Resources */ = {isa = PBXBuildFile; fileRef = FEA5F263FB7042B29E9F94D1 /* MSAL.xcframework */; };
+		279BC835349743058B33BEB9 /* MSAL.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FEA5F263FB7042B29E9F94D1 /* MSAL.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		348D95BA309C4BD79990D263 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE332061E2248159C3C08ED /* AudioToolbox.framework */; };
+		5BF008E6AEF74F169F2A26FD /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBA8F2DB21D43D4952216C3 /* CoreServices.framework */; };
+		68F5DAF04BCE4463909A18E4 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C6CEA1E1754AA9BFBEF83D /* ImageIO.framework */; };
+		128266070A3B4BC0B2A71982 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3947021482D54661B75E866B /* libc++.tbd */; };
+		82EE14A14B9141B2AD2C4391 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F67B97228B54D11AA3C80BC /* libsqlite3.tbd */; };
+		4D3E3BF5DC9D43869577F246 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5CCEFB64C943D9852C3E2B /* LocalAuthentication.framework */; };
+		BFF1A1D509FA410F816B05F9 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C058D14DB25D48F48CBE8B7E /* MessageUI.framework */; };
+		52EDAB411C3447969D1D3800 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E77DA054CC14B63B98B8541 /* QuartzCore.framework */; };
+		9D2CEC61F246443385231EE0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB4615B55F5466BB036AF2D /* Security.framework */; };
+		94ACA3B9C9124AF8B0EBB0B5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5513103C19E47DE8D1D518C /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,7 +80,7 @@
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* ionic-intune-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ionic-intune-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib\CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
 		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
@@ -95,47 +95,47 @@
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "ionic-intune-test/config.xml"; sourceTree = "<group>"; };
-		B49D1A4931DC43D4A19B251C /* CDVDevice.m */ = {isa = PBXFileReference; name = "CDVDevice.m"; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		29FFC46F0D554AB099375401 /* CDVDevice.h */ = {isa = PBXFileReference; name = "CDVDevice.h"; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		C5C45A57E4DE43B39A290FAF /* CDVIonicKeyboard.m */ = {isa = PBXFileReference; name = "CDVIonicKeyboard.m"; path = "cordova-plugin-ionic-keyboard/CDVIonicKeyboard.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		D43B8995AD024AA6A3BFDBCB /* CDVIonicKeyboard.h */ = {isa = PBXFileReference; name = "CDVIonicKeyboard.h"; path = "cordova-plugin-ionic-keyboard/CDVIonicKeyboard.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		3A11525065B84380BDEB7531 /* CDVWKWebViewEngine.m */ = {isa = PBXFileReference; name = "CDVWKWebViewEngine.m"; path = "cordova-plugin-ionic-webview/CDVWKWebViewEngine.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		CECF88267FE64311BB248304 /* CDVWKWebViewUIDelegate.m */ = {isa = PBXFileReference; name = "CDVWKWebViewUIDelegate.m"; path = "cordova-plugin-ionic-webview/CDVWKWebViewUIDelegate.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		39FFE8BFE98D430C90D2E6AA /* CDVWKProcessPoolFactory.m */ = {isa = PBXFileReference; name = "CDVWKProcessPoolFactory.m"; path = "cordova-plugin-ionic-webview/CDVWKProcessPoolFactory.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		3D0C51B38D5548A0B6B46006 /* IONAssetHandler.m */ = {isa = PBXFileReference; name = "IONAssetHandler.m"; path = "cordova-plugin-ionic-webview/IONAssetHandler.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		49556469E7CE4D41A47D9F32 /* CDVWKWebViewEngine.h */ = {isa = PBXFileReference; name = "CDVWKWebViewEngine.h"; path = "cordova-plugin-ionic-webview/CDVWKWebViewEngine.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		359EF2C96B3B4036AC6ECBCB /* CDVWKWebViewUIDelegate.h */ = {isa = PBXFileReference; name = "CDVWKWebViewUIDelegate.h"; path = "cordova-plugin-ionic-webview/CDVWKWebViewUIDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		72187393F1BC45718168B4ED /* CDVWKProcessPoolFactory.h */ = {isa = PBXFileReference; name = "CDVWKProcessPoolFactory.h"; path = "cordova-plugin-ionic-webview/CDVWKProcessPoolFactory.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		5B93A125FA7D4604A798C0A5 /* IONAssetHandler.h */ = {isa = PBXFileReference; name = "IONAssetHandler.h"; path = "cordova-plugin-ionic-webview/IONAssetHandler.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		44F56A03BCE94B2F96B77F0D /* WebKit.framework */ = {isa = PBXFileReference; name = "WebKit.framework"; path = "System/Library/Frameworks/WebKit.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		DCBB52A4FC7849279EB7C3BA /* CDVSplashScreen.m */ = {isa = PBXFileReference; name = "CDVSplashScreen.m"; path = "cordova-plugin-splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		1649CAC0E8B3454FA8781940 /* CDVViewController+SplashScreen.m */ = {isa = PBXFileReference; name = "CDVViewController+SplashScreen.m"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		7223729970BF4EF3A4C94987 /* CDVSplashScreen.h */ = {isa = PBXFileReference; name = "CDVSplashScreen.h"; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		D051DE9AA6F14D99BF551A7F /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		08496DF3DBE44D9CB02BEC2E /* CDVStatusBar.m */ = {isa = PBXFileReference; name = "CDVStatusBar.m"; path = "cordova-plugin-statusbar/CDVStatusBar.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		1BB8114F6318465AA4BE83AB /* CDVStatusBar.h */ = {isa = PBXFileReference; name = "CDVStatusBar.h"; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		FBF3745E42244C328B038871 /* EnrollmentDelegate.swift */ = {isa = PBXFileReference; name = "EnrollmentDelegate.swift"; path = "@ionic-enterprise/intune/EnrollmentDelegate.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		366A27F7847641EB840A5B73 /* PolicyDelegate.swift */ = {isa = PBXFileReference; name = "PolicyDelegate.swift"; path = "@ionic-enterprise/intune/PolicyDelegate.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		DBA2DC4886BB45A0A13C52AF /* IntunePlugin.swift */ = {isa = PBXFileReference; name = "IntunePlugin.swift"; path = "@ionic-enterprise/intune/IntunePlugin.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		182E57DD274044FDA5796AB1 /* CAPPlugin.h */ = {isa = PBXFileReference; name = "CAPPlugin.h"; path = "@ionic-enterprise/intune/CAPPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		A9516E4C37E14852924F28D4 /* CAPPlugin.m */ = {isa = PBXFileReference; name = "CAPPlugin.m"; path = "@ionic-enterprise/intune/CAPPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		A622FC77C5D444439992248C /* CAPPluginCall.h */ = {isa = PBXFileReference; name = "CAPPluginCall.h"; path = "@ionic-enterprise/intune/CAPPluginCall.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		A5BCD9BE7DC9499F85F31476 /* CAPPluginCall.m */ = {isa = PBXFileReference; name = "CAPPluginCall.m"; path = "@ionic-enterprise/intune/CAPPluginCall.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		A50B4D7895474F559AF8134B /* CAPPluginCall.swift */ = {isa = PBXFileReference; name = "CAPPluginCall.swift"; path = "@ionic-enterprise/intune/CAPPluginCall.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		A24C186C51A545709807F798 /* CAPCordovaCompat-Bridging-Header.h */ = {isa = PBXFileReference; name = "CAPCordovaCompat-Bridging-Header.h"; path = "@ionic-enterprise/intune/CAPCordovaCompat-Bridging-Header.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		F2EBACB36ACF446D947D7124 /* IntuneMAMSwift.xcframework */ = {isa = PBXFileReference; name = "IntuneMAMSwift.xcframework"; path = "ionic-intune-test/Plugins/@ionic-enterprise/intune/IntuneMAMSwift.xcframework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		EB82DF47A1DE405E83A35690 /* IntuneMAMSwiftStub.xcframework */ = {isa = PBXFileReference; name = "IntuneMAMSwiftStub.xcframework"; path = "ionic-intune-test/Plugins/@ionic-enterprise/intune/IntuneMAMSwiftStub.xcframework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8831CA3639DB45689AAE5560 /* MSAL.xcframework */ = {isa = PBXFileReference; name = "MSAL.xcframework"; path = "ionic-intune-test/Plugins/@ionic-enterprise/intune/MSAL.xcframework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4D385FFAD4DA45ADB43A765E /* AudioToolbox.framework */ = {isa = PBXFileReference; name = "AudioToolbox.framework"; path = "System/Library/Frameworks/AudioToolbox.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		CE09DED32516406A8B15ADB3 /* CoreServices.framework */ = {isa = PBXFileReference; name = "CoreServices.framework"; path = "System/Library/Frameworks/CoreServices.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		186BB52649D749F0A5393B99 /* ImageIO.framework */ = {isa = PBXFileReference; name = "ImageIO.framework"; path = "System/Library/Frameworks/ImageIO.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		1A5DD2285DDE4F798753AE21 /* libc++.tbd */ = {isa = PBXFileReference; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
-		18693BB659E745A09715CB3E /* libsqlite3.tbd */ = {isa = PBXFileReference; name = "libsqlite3.tbd"; path = "usr/lib/libsqlite3.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
-		2E265E6EC1DB480B91C63CA6 /* LocalAuthentication.framework */ = {isa = PBXFileReference; name = "LocalAuthentication.framework"; path = "System/Library/Frameworks/LocalAuthentication.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		CD89E3DF2D9A4B06ABB9C21D /* MessageUI.framework */ = {isa = PBXFileReference; name = "MessageUI.framework"; path = "System/Library/Frameworks/MessageUI.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		5CA51C6A1FAA48A4BB4C7207 /* QuartzCore.framework */ = {isa = PBXFileReference; name = "QuartzCore.framework"; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		4599172262964383AD3CA393 /* Security.framework */ = {isa = PBXFileReference; name = "Security.framework"; path = "System/Library/Frameworks/Security.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		A31B2271D1FD43DE96D9F851 /* SystemConfiguration.framework */ = {isa = PBXFileReference; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		F039E2157B9C48F4B6BC8A9B /* CDVDevice.m */ = {isa = PBXFileReference; name = "CDVDevice.m"; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		D53BEAED51924E96A58A6667 /* CDVDevice.h */ = {isa = PBXFileReference; name = "CDVDevice.h"; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		2617D91D927044EF93752DAF /* CDVIonicKeyboard.m */ = {isa = PBXFileReference; name = "CDVIonicKeyboard.m"; path = "cordova-plugin-ionic-keyboard/CDVIonicKeyboard.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		FC097CE2C6B14E509265D17F /* CDVIonicKeyboard.h */ = {isa = PBXFileReference; name = "CDVIonicKeyboard.h"; path = "cordova-plugin-ionic-keyboard/CDVIonicKeyboard.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		C1668D98925046C79A126133 /* CDVWKWebViewEngine.m */ = {isa = PBXFileReference; name = "CDVWKWebViewEngine.m"; path = "cordova-plugin-ionic-webview/CDVWKWebViewEngine.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		0642770CE7B64316B31147D2 /* CDVWKWebViewUIDelegate.m */ = {isa = PBXFileReference; name = "CDVWKWebViewUIDelegate.m"; path = "cordova-plugin-ionic-webview/CDVWKWebViewUIDelegate.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		B6E2718B443B4250AC1DE930 /* CDVWKProcessPoolFactory.m */ = {isa = PBXFileReference; name = "CDVWKProcessPoolFactory.m"; path = "cordova-plugin-ionic-webview/CDVWKProcessPoolFactory.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		F631C6F63F2A40D8AA8CCBF8 /* IONAssetHandler.m */ = {isa = PBXFileReference; name = "IONAssetHandler.m"; path = "cordova-plugin-ionic-webview/IONAssetHandler.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		3E5B2765627847909C3F5B20 /* CDVWKWebViewEngine.h */ = {isa = PBXFileReference; name = "CDVWKWebViewEngine.h"; path = "cordova-plugin-ionic-webview/CDVWKWebViewEngine.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		74ED2BE644EC4EC6AD2DF63D /* CDVWKWebViewUIDelegate.h */ = {isa = PBXFileReference; name = "CDVWKWebViewUIDelegate.h"; path = "cordova-plugin-ionic-webview/CDVWKWebViewUIDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		6F9DA85E6DE74983B5CA5372 /* CDVWKProcessPoolFactory.h */ = {isa = PBXFileReference; name = "CDVWKProcessPoolFactory.h"; path = "cordova-plugin-ionic-webview/CDVWKProcessPoolFactory.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		AD5F722639B2445D91E74920 /* IONAssetHandler.h */ = {isa = PBXFileReference; name = "IONAssetHandler.h"; path = "cordova-plugin-ionic-webview/IONAssetHandler.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		F17891E816B441EA9152602A /* WebKit.framework */ = {isa = PBXFileReference; name = "WebKit.framework"; path = "System/Library/Frameworks/WebKit.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		47396CB84E3F430DB5DAAED5 /* CDVSplashScreen.m */ = {isa = PBXFileReference; name = "CDVSplashScreen.m"; path = "cordova-plugin-splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		A4ADEF9320BA43B591B5C838 /* CDVViewController+SplashScreen.m */ = {isa = PBXFileReference; name = "CDVViewController+SplashScreen.m"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		D51F1E77EAC94AAB9AFC379C /* CDVSplashScreen.h */ = {isa = PBXFileReference; name = "CDVSplashScreen.h"; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		D672A9F6B22149BDA37124F0 /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		12DEF5BA2A684BC7A2FE063F /* CDVStatusBar.m */ = {isa = PBXFileReference; name = "CDVStatusBar.m"; path = "cordova-plugin-statusbar/CDVStatusBar.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		56754EF471C64CA18E5B6868 /* CDVStatusBar.h */ = {isa = PBXFileReference; name = "CDVStatusBar.h"; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		5E979B69157E4C95BCAD517D /* EnrollmentDelegate.swift */ = {isa = PBXFileReference; name = "EnrollmentDelegate.swift"; path = "@ionic-enterprise/intune/EnrollmentDelegate.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		B144ED6352384960A6518C5B /* PolicyDelegate.swift */ = {isa = PBXFileReference; name = "PolicyDelegate.swift"; path = "@ionic-enterprise/intune/PolicyDelegate.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		8C85DE4800C440A2B2503756 /* IntunePlugin.swift */ = {isa = PBXFileReference; name = "IntunePlugin.swift"; path = "@ionic-enterprise/intune/IntunePlugin.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		23E295ED0E4C4F039EAE8B25 /* CAPPlugin.h */ = {isa = PBXFileReference; name = "CAPPlugin.h"; path = "@ionic-enterprise/intune/CAPPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		30CBF547595942D1B9ED44A5 /* CAPPlugin.m */ = {isa = PBXFileReference; name = "CAPPlugin.m"; path = "@ionic-enterprise/intune/CAPPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		93C302CB3027473690CC8BE4 /* CAPPluginCall.h */ = {isa = PBXFileReference; name = "CAPPluginCall.h"; path = "@ionic-enterprise/intune/CAPPluginCall.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		7EB7AF5B28BB43199CBAD8A7 /* CAPPluginCall.m */ = {isa = PBXFileReference; name = "CAPPluginCall.m"; path = "@ionic-enterprise/intune/CAPPluginCall.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		7600F9EFB6AA4A998B4BA0F0 /* CAPPluginCall.swift */ = {isa = PBXFileReference; name = "CAPPluginCall.swift"; path = "@ionic-enterprise/intune/CAPPluginCall.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		816CFC0086AF4DE082B43449 /* CAPCordovaCompat-Bridging-Header.h */ = {isa = PBXFileReference; name = "CAPCordovaCompat-Bridging-Header.h"; path = "@ionic-enterprise/intune/CAPCordovaCompat-Bridging-Header.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		1CDD256F1E344D508A59B505 /* IntuneMAMSwift.xcframework */ = {isa = PBXFileReference; name = "IntuneMAMSwift.xcframework"; path = "ionic-intune-test/Plugins/@ionic-enterprise/intune/IntuneMAMSwift.xcframework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6CF43D7A00D1441A9258D3CB /* IntuneMAMSwiftStub.xcframework */ = {isa = PBXFileReference; name = "IntuneMAMSwiftStub.xcframework"; path = "ionic-intune-test/Plugins/@ionic-enterprise/intune/IntuneMAMSwiftStub.xcframework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FEA5F263FB7042B29E9F94D1 /* MSAL.xcframework */ = {isa = PBXFileReference; name = "MSAL.xcframework"; path = "ionic-intune-test/Plugins/@ionic-enterprise/intune/MSAL.xcframework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9AE332061E2248159C3C08ED /* AudioToolbox.framework */ = {isa = PBXFileReference; name = "AudioToolbox.framework"; path = "System/Library/Frameworks/AudioToolbox.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		AFBA8F2DB21D43D4952216C3 /* CoreServices.framework */ = {isa = PBXFileReference; name = "CoreServices.framework"; path = "System/Library/Frameworks/CoreServices.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		84C6CEA1E1754AA9BFBEF83D /* ImageIO.framework */ = {isa = PBXFileReference; name = "ImageIO.framework"; path = "System/Library/Frameworks/ImageIO.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		3947021482D54661B75E866B /* libc++.tbd */ = {isa = PBXFileReference; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
+		5F67B97228B54D11AA3C80BC /* libsqlite3.tbd */ = {isa = PBXFileReference; name = "libsqlite3.tbd"; path = "usr/lib/libsqlite3.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
+		0B5CCEFB64C943D9852C3E2B /* LocalAuthentication.framework */ = {isa = PBXFileReference; name = "LocalAuthentication.framework"; path = "System/Library/Frameworks/LocalAuthentication.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		C058D14DB25D48F48CBE8B7E /* MessageUI.framework */ = {isa = PBXFileReference; name = "MessageUI.framework"; path = "System/Library/Frameworks/MessageUI.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		6E77DA054CC14B63B98B8541 /* QuartzCore.framework */ = {isa = PBXFileReference; name = "QuartzCore.framework"; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		0EB4615B55F5466BB036AF2D /* Security.framework */ = {isa = PBXFileReference; name = "Security.framework"; path = "System/Library/Frameworks/Security.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		E5513103C19E47DE8D1D518C /* SystemConfiguration.framework */ = {isa = PBXFileReference; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,17 +144,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
-				9FE1E7ED38764684A6D4785D /* WebKit.framework in Frameworks */,
-				A9424F34C27E4F5789E78D1A /* AudioToolbox.framework in Frameworks */,
-				E02A4A858E0846E4875FF2A7 /* CoreServices.framework in Frameworks */,
-				2C634B783BFE4274A30FEFCF /* ImageIO.framework in Frameworks */,
-				3E1AA543CA9041AAB2DEEFB5 /* libc++.tbd in Frameworks */,
-				ED91D738111D4CE3BAD71BEC /* libsqlite3.tbd in Frameworks */,
-				E2050B79C71D46A7AA484965 /* LocalAuthentication.framework in Frameworks */,
-				E76EB3711CE74F86A90C1CA9 /* MessageUI.framework in Frameworks */,
-				2F33FCBE32BC4D62AF8E49B9 /* QuartzCore.framework in Frameworks */,
-				024EA3932F9F4C0AB0DC56C6 /* Security.framework in Frameworks */,
-				796D5858FD8A4305938BF3C5 /* SystemConfiguration.framework in Frameworks */,
+				E48F48EC8CBC4920B9F0E062 /* WebKit.framework in Frameworks */,
+				348D95BA309C4BD79990D263 /* AudioToolbox.framework in Frameworks */,
+				5BF008E6AEF74F169F2A26FD /* CoreServices.framework in Frameworks */,
+				68F5DAF04BCE4463909A18E4 /* ImageIO.framework in Frameworks */,
+				128266070A3B4BC0B2A71982 /* libc++.tbd in Frameworks */,
+				82EE14A14B9141B2AD2C4391 /* libsqlite3.tbd in Frameworks */,
+				4D3E3BF5DC9D43869577F246 /* LocalAuthentication.framework in Frameworks */,
+				BFF1A1D509FA410F816B05F9 /* MessageUI.framework in Frameworks */,
+				52EDAB411C3447969D1D3800 /* QuartzCore.framework in Frameworks */,
+				9D2CEC61F246443385231EE0 /* Security.framework in Frameworks */,
+				94ACA3B9C9124AF8B0EBB0B5 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,20 +225,20 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				44F56A03BCE94B2F96B77F0D /* WebKit.framework */,
-				F2EBACB36ACF446D947D7124 /* IntuneMAMSwift.xcframework */,
-				EB82DF47A1DE405E83A35690 /* IntuneMAMSwiftStub.xcframework */,
-				8831CA3639DB45689AAE5560 /* MSAL.xcframework */,
-				4D385FFAD4DA45ADB43A765E /* AudioToolbox.framework */,
-				CE09DED32516406A8B15ADB3 /* CoreServices.framework */,
-				186BB52649D749F0A5393B99 /* ImageIO.framework */,
-				1A5DD2285DDE4F798753AE21 /* libc++.tbd */,
-				18693BB659E745A09715CB3E /* libsqlite3.tbd */,
-				2E265E6EC1DB480B91C63CA6 /* LocalAuthentication.framework */,
-				CD89E3DF2D9A4B06ABB9C21D /* MessageUI.framework */,
-				5CA51C6A1FAA48A4BB4C7207 /* QuartzCore.framework */,
-				4599172262964383AD3CA393 /* Security.framework */,
-				A31B2271D1FD43DE96D9F851 /* SystemConfiguration.framework */,
+				F17891E816B441EA9152602A /* WebKit.framework */,
+				1CDD256F1E344D508A59B505 /* IntuneMAMSwift.xcframework */,
+				6CF43D7A00D1441A9258D3CB /* IntuneMAMSwiftStub.xcframework */,
+				FEA5F263FB7042B29E9F94D1 /* MSAL.xcframework */,
+				9AE332061E2248159C3C08ED /* AudioToolbox.framework */,
+				AFBA8F2DB21D43D4952216C3 /* CoreServices.framework */,
+				84C6CEA1E1754AA9BFBEF83D /* ImageIO.framework */,
+				3947021482D54661B75E866B /* libc++.tbd */,
+				5F67B97228B54D11AA3C80BC /* libsqlite3.tbd */,
+				0B5CCEFB64C943D9852C3E2B /* LocalAuthentication.framework */,
+				C058D14DB25D48F48CBE8B7E /* MessageUI.framework */,
+				6E77DA054CC14B63B98B8541 /* QuartzCore.framework */,
+				0EB4615B55F5466BB036AF2D /* Security.framework */,
+				E5513103C19E47DE8D1D518C /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -265,33 +265,33 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				B49D1A4931DC43D4A19B251C /* CDVDevice.m */,
-				29FFC46F0D554AB099375401 /* CDVDevice.h */,
-				C5C45A57E4DE43B39A290FAF /* CDVIonicKeyboard.m */,
-				D43B8995AD024AA6A3BFDBCB /* CDVIonicKeyboard.h */,
-				3A11525065B84380BDEB7531 /* CDVWKWebViewEngine.m */,
-				CECF88267FE64311BB248304 /* CDVWKWebViewUIDelegate.m */,
-				39FFE8BFE98D430C90D2E6AA /* CDVWKProcessPoolFactory.m */,
-				3D0C51B38D5548A0B6B46006 /* IONAssetHandler.m */,
-				49556469E7CE4D41A47D9F32 /* CDVWKWebViewEngine.h */,
-				359EF2C96B3B4036AC6ECBCB /* CDVWKWebViewUIDelegate.h */,
-				72187393F1BC45718168B4ED /* CDVWKProcessPoolFactory.h */,
-				5B93A125FA7D4604A798C0A5 /* IONAssetHandler.h */,
-				DCBB52A4FC7849279EB7C3BA /* CDVSplashScreen.m */,
-				1649CAC0E8B3454FA8781940 /* CDVViewController+SplashScreen.m */,
-				7223729970BF4EF3A4C94987 /* CDVSplashScreen.h */,
-				D051DE9AA6F14D99BF551A7F /* CDVViewController+SplashScreen.h */,
-				08496DF3DBE44D9CB02BEC2E /* CDVStatusBar.m */,
-				1BB8114F6318465AA4BE83AB /* CDVStatusBar.h */,
-				FBF3745E42244C328B038871 /* EnrollmentDelegate.swift */,
-				366A27F7847641EB840A5B73 /* PolicyDelegate.swift */,
-				DBA2DC4886BB45A0A13C52AF /* IntunePlugin.swift */,
-				182E57DD274044FDA5796AB1 /* CAPPlugin.h */,
-				A9516E4C37E14852924F28D4 /* CAPPlugin.m */,
-				A622FC77C5D444439992248C /* CAPPluginCall.h */,
-				A5BCD9BE7DC9499F85F31476 /* CAPPluginCall.m */,
-				A50B4D7895474F559AF8134B /* CAPPluginCall.swift */,
-				A24C186C51A545709807F798 /* CAPCordovaCompat-Bridging-Header.h */,
+				F039E2157B9C48F4B6BC8A9B /* CDVDevice.m */,
+				D53BEAED51924E96A58A6667 /* CDVDevice.h */,
+				2617D91D927044EF93752DAF /* CDVIonicKeyboard.m */,
+				FC097CE2C6B14E509265D17F /* CDVIonicKeyboard.h */,
+				C1668D98925046C79A126133 /* CDVWKWebViewEngine.m */,
+				0642770CE7B64316B31147D2 /* CDVWKWebViewUIDelegate.m */,
+				B6E2718B443B4250AC1DE930 /* CDVWKProcessPoolFactory.m */,
+				F631C6F63F2A40D8AA8CCBF8 /* IONAssetHandler.m */,
+				3E5B2765627847909C3F5B20 /* CDVWKWebViewEngine.h */,
+				74ED2BE644EC4EC6AD2DF63D /* CDVWKWebViewUIDelegate.h */,
+				6F9DA85E6DE74983B5CA5372 /* CDVWKProcessPoolFactory.h */,
+				AD5F722639B2445D91E74920 /* IONAssetHandler.h */,
+				47396CB84E3F430DB5DAAED5 /* CDVSplashScreen.m */,
+				A4ADEF9320BA43B591B5C838 /* CDVViewController+SplashScreen.m */,
+				D51F1E77EAC94AAB9AFC379C /* CDVSplashScreen.h */,
+				D672A9F6B22149BDA37124F0 /* CDVViewController+SplashScreen.h */,
+				12DEF5BA2A684BC7A2FE063F /* CDVStatusBar.m */,
+				56754EF471C64CA18E5B6868 /* CDVStatusBar.h */,
+				5E979B69157E4C95BCAD517D /* EnrollmentDelegate.swift */,
+				B144ED6352384960A6518C5B /* PolicyDelegate.swift */,
+				8C85DE4800C440A2B2503756 /* IntunePlugin.swift */,
+				23E295ED0E4C4F039EAE8B25 /* CAPPlugin.h */,
+				30CBF547595942D1B9ED44A5 /* CAPPlugin.m */,
+				93C302CB3027473690CC8BE4 /* CAPPluginCall.h */,
+				7EB7AF5B28BB43199CBAD8A7 /* CAPPluginCall.m */,
+				7600F9EFB6AA4A998B4BA0F0 /* CAPPluginCall.swift */,
+				816CFC0086AF4DE082B43449 /* CAPCordovaCompat-Bridging-Header.h */,
 			);
 			name = Plugins;
 			path = "ionic-intune-test/Plugins";
@@ -317,7 +317,7 @@
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
-				14315200EF2A4D19BE263C2F /* Embed Frameworks */,
+				CA1144C24F7241609BB02EAC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -421,23 +421,23 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				FD21276C861040988231179C /* CDVDevice.m in Sources */,
-				88B23572CD5B4BD1AF107F3B /* CDVIonicKeyboard.m in Sources */,
-				3A60F1F48AC94A2FB004918C /* CDVWKWebViewEngine.m in Sources */,
-				C2C36E86B2DA45E8B982ECB2 /* CDVWKWebViewUIDelegate.m in Sources */,
-				63F1AF86DBD443D3A3ECC974 /* CDVWKProcessPoolFactory.m in Sources */,
-				6393ECA334504B91BD952056 /* IONAssetHandler.m in Sources */,
-				B64FC5BC81D64D14ADCE2114 /* CDVSplashScreen.m in Sources */,
-				43348E6C7F75482DA94E38AB /* CDVViewController+SplashScreen.m in Sources */,
-				D3A40E140C154E1C80F6FA65 /* CDVStatusBar.m in Sources */,
-				52998F7DB2A1457C87D150E4 /* EnrollmentDelegate.swift in Sources */,
-				66AAB80392F54B7B9FB2737E /* PolicyDelegate.swift in Sources */,
-				5F0368FC2AEF4A2289A0FA88 /* IntunePlugin.swift in Sources */,
-				2B22B36BB463483BB9A0271F /* CAPPlugin.h in Resources */,
-				9D3747FE66264F7E86591A52 /* CAPPlugin.m in Sources */,
-				BBE621ABE8424530BE8655D0 /* CAPPluginCall.h in Resources */,
-				6E4D77DD9E5347DB9E20A0E0 /* CAPPluginCall.m in Sources */,
-				CF66353CE95142D28935EC42 /* CAPPluginCall.swift in Sources */,
+				E1645C7B92BD426E94596FB7 /* CDVDevice.m in Sources */,
+				F5B14A61E9F047B081756664 /* CDVIonicKeyboard.m in Sources */,
+				541DF989AF0B48A092043030 /* CDVWKWebViewEngine.m in Sources */,
+				2829EF8A6F5D4AB28414B7A8 /* CDVWKWebViewUIDelegate.m in Sources */,
+				C8DF833B5DD049DB9F92F1DD /* CDVWKProcessPoolFactory.m in Sources */,
+				E695A434D3C54AC2963C906D /* IONAssetHandler.m in Sources */,
+				19E7D3D64910476E82FBF76B /* CDVSplashScreen.m in Sources */,
+				0C41C75F82844F678C967C65 /* CDVViewController+SplashScreen.m in Sources */,
+				855610E1A40042FABB252C96 /* CDVStatusBar.m in Sources */,
+				7453F4D290544D23824E1383 /* EnrollmentDelegate.swift in Sources */,
+				0AAE444D94214770A02C5F62 /* PolicyDelegate.swift in Sources */,
+				8082CB66908C47AEB4470B4A /* IntunePlugin.swift in Sources */,
+				C7C8DC0FFAB14D85ACAD6C81 /* CAPPlugin.h in Resources */,
+				5066A2DECC9444568D0E0252 /* CAPPlugin.m in Sources */,
+				949C2011AE3A4A22805D4828 /* CAPPluginCall.h in Resources */,
+				FA8F1D8C7328476780BD1DC3 /* CAPPluginCall.m in Sources */,
+				B1A5793620C542EA869C1092 /* CAPPluginCall.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,10 +480,6 @@
 					"\"ionic-intune-test/Plugins/@ionic-enterprise/intune\"",
 					"\"ionic-intune-test/Plugins/@ionic-enterprise/intune\"",
 				);
-				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Bridging-Header.h";
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				SWIFT_VERSION = 4.0;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -513,9 +509,6 @@
 					"\"ionic-intune-test/Plugins/@ionic-enterprise/intune\"",
 					"\"ionic-intune-test/Plugins/@ionic-enterprise/intune\"",
 				);
-				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Bridging-Header.h";
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -560,10 +553,6 @@
 				SKIP_INSTALL = NO;
 				WK_WEB_VIEW_ONLY = 1;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Bridging-Header.h";
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				SWIFT_VERSION = 4.0;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -606,9 +595,6 @@
 				SKIP_INSTALL = NO;
 				WK_WEB_VIEW_ONLY = 1;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Bridging-Header.h";
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -636,13 +622,13 @@
 /* End XCConfigurationList section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		14315200EF2A4D19BE263C2F /* Embed Frameworks */ = {
+		CA1144C24F7241609BB02EAC /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E0FCDD8C0994E25AAB86CF0 /* IntuneMAMSwift.xcframework in Embed Frameworks */,
-				974B0A576C274B55823BC619 /* IntuneMAMSwiftStub.xcframework in Embed Frameworks */,
-				CC40639793F843FEA58B29D2 /* MSAL.xcframework in Embed Frameworks */,
+				B905F0EDBF9A42E4AC4C7E7E /* IntuneMAMSwift.xcframework in Embed Frameworks */,
+				650EEA2A715B40F89D9CC0FA /* IntuneMAMSwiftStub.xcframework in Embed Frameworks */,
+				279BC835349743058B33BEB9 /* MSAL.xcframework in Embed Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			name = "Embed Frameworks";

@@ -27,7 +27,6 @@
 
 #import "AppDelegate.h"
 #import "MainViewController.h"
-#import <MSAL/MSAL.h>
 
 @implementation AppDelegate
 
@@ -35,10 +34,6 @@
 {
     self.viewController = [[MainViewController alloc] init];
     return [super application:application didFinishLaunchingWithOptions:launchOptions];
-}
-
-- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
-    return [MSALPublicClientApplication handleMSALResponse:url sourceApplication:[options valueForKey:UIApplicationOpenURLOptionsSourceApplicationKey]];
 }
 
 @end

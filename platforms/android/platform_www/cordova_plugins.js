@@ -1,23 +1,6 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
   module.exports = [
     {
-      "id": "@ionic-enterprise/intune.ionicintune",
-      "file": "plugins/@ionic-enterprise/intune/cordova/www/ionicintune.js",
-      "pluginId": "@ionic-enterprise/intune",
-      "clobbers": [
-        "IntuneMAM"
-      ],
-      "runs": true
-    },
-    {
-      "id": "cordova-plugin-ionic-webview.IonicWebView",
-      "file": "plugins/cordova-plugin-ionic-webview/src/www/util.js",
-      "pluginId": "cordova-plugin-ionic-webview",
-      "clobbers": [
-        "Ionic.WebView"
-      ]
-    },
-    {
       "id": "cordova-plugin-statusbar.statusbar",
       "file": "plugins/cordova-plugin-statusbar/www/statusbar.js",
       "pluginId": "cordova-plugin-statusbar",
@@ -48,16 +31,32 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       "clobbers": [
         "window.Keyboard"
       ]
+    },
+    {
+      "id": "cordova-plugin-ionic-webview.IonicWebView",
+      "file": "plugins/cordova-plugin-ionic-webview/src/www/util.js",
+      "pluginId": "cordova-plugin-ionic-webview",
+      "clobbers": [
+        "Ionic.WebView"
+      ]
+    },
+    {
+      "id": "@ionic-enterprise/intune.ionicintune",
+      "file": "plugins/@ionic-enterprise/intune/cordova/www/ionicintune.js",
+      "pluginId": "@ionic-enterprise/intune",
+      "clobbers": [
+        "IntuneMAM"
+      ],
+      "runs": true
     }
   ];
   module.exports.metadata = {
-    "@ionic-enterprise/intune": "2.0.0",
-    "cordova-plugin-ionic-webview": "5.0.0",
     "cordova-plugin-whitelist": "1.3.3",
     "cordova-plugin-statusbar": "2.4.2",
     "cordova-plugin-device": "2.0.2",
     "cordova-plugin-splashscreen": "5.0.2",
     "cordova-plugin-ionic-keyboard": "2.2.0",
-    "cordova-plugin-add-swift-support": "2.0.2"
+    "cordova-plugin-ionic-webview": "5.0.0",
+    "@ionic-enterprise/intune": "2.0.0"
   };
 });
