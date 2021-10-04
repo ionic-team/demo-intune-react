@@ -26,3 +26,5 @@
 //
 
 #import <Cordova/CDV.h>
+#import "CAPPlugin.h"
+#import "CAPPluginCall.h"

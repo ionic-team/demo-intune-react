@@ -29,10 +29,9 @@ const Home: React.FC = () => {
   const [appConfig, setAppConfig] = useState<IntuneMAMAppConfig | null>(null);
   const [policy, setPolicy] = useState<IntuneMAMPolicy | null>(null);
 
-  const IntuneMAM = (window as any).IntuneMAM as IntuneMAMPlugin;
-
   useEffect(() => {
     async function getInitialData() {
+      const IntuneMAM = (window as any).IntuneMAM as IntuneMAMPlugin;
       setVersion(await IntuneMAM.sdkVersion());
 
       /*
@@ -44,11 +43,19 @@ const Home: React.FC = () => {
       });
       */
     }
-    getInitialData();
+
+    document.addEventListener(
+      "deviceready",
+      async () => {
+        getInitialData();
+      },
+      false
+    );
   }, []);
 
   useEffect(() => {
     async function getToken() {
+      const IntuneMAM = (window as any).IntuneMAM as IntuneMAMPlugin;
       if (user && user.upn) {
         try {
           const tokenInfo = await IntuneMAM.acquireTokenSilent({
@@ -69,11 +76,18 @@ const Home: React.FC = () => {
       }
     }
 
-    getToken();
+    document.addEventListener(
+      "deviceready",
+      async () => {
+        getToken();
+      },
+      false
+    );
   }, [user]);
 
   useEffect(() => {
     async function getAppConfig() {
+      const IntuneMAM = (window as any).IntuneMAM as IntuneMAMPlugin;
       if (user && user.upn) {
         setAppConfig(await IntuneMAM.appConfig(user));
         setGroupName(await IntuneMAM.groupName(user));
@@ -85,15 +99,24 @@ const Home: React.FC = () => {
   }, [user]);
 
   useIonViewWillEnter(async () => {
-    setUser(await IntuneMAM.enrolledAccount());
+    document.addEventListener(
+      "deviceready",
+      async () => {
+        const IntuneMAM = (window as any).IntuneMAM as IntuneMAMPlugin;
+        setUser(await IntuneMAM.enrolledAccount());
+      },
+      false
+    );
   });
 
   const showConsole = useCallback(async () => {
+    const IntuneMAM = (window as any).IntuneMAM as IntuneMAMPlugin;
     await IntuneMAM.displayDiagnosticConsole();
   }, []);
 
   const logout = useCallback(async () => {
     if (user) {
+      const IntuneMAM = (window as any).IntuneMAM as IntuneMAMPlugin;
       await IntuneMAM.deRegisterAndUnenrollAccount(user);
     }
     history.replace("/");

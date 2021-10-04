@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "89BE57CF-3E8D-44D5-A69B-FE6BCA226CB7"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B2919FFA-D6AD-4B58-9101-E9D20C8A1DF6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ionic-intune-test/Plugins/@ionic-enterprise/intune/IntunePlugin.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "191"
+            endingLineNumber = "191"
+            landmarkName = "loginAndEnrollAccount(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B2919FFA-D6AD-4B58-9101-E9D20C8A1DF6 - afa35f78b926e00c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ionic_intune_test.IntuneMAM.loginAndEnrollAccount(__C.CDVInvokedUrlCommand) -&gt; ()"
+                  moduleName = "ionic-intune-test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/git/demo-intune/platforms/ios/ionic-intune-test/Plugins/@ionic-enterprise/intune/IntunePlugin.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "191"
+                  endingLineNumber = "191"
+                  offsetFromSymbolStart = "10">
+               </Location>
+               <Location
+                  uuid = "B2919FFA-D6AD-4B58-9101-E9D20C8A1DF6 - dd78c9f301499b30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc ionic_intune_test.IntuneMAM.loginAndEnrollAccount(__C.CDVInvokedUrlCommand) -&gt; ()"
+                  moduleName = "ionic-intune-test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/git/demo-intune/platforms/ios/ionic-intune-test/Plugins/@ionic-enterprise/intune/IntunePlugin.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "191"
+                  endingLineNumber = "191"
+                  offsetFromSymbolStart = "33">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1030CD9-53B9-4D31-B6F1-5CBBF39E7D06"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ionic-intune-test/Plugins/@ionic-enterprise/intune/IntunePlugin.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "171"
+            endingLineNumber = "171"
+            landmarkName = "acquireToken(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A7C85E9-9F5F-4DB6-AFB3-74FB3C7D404F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ionic-intune-test/Plugins/@ionic-enterprise/intune/IntunePlugin.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
+            landmarkName = "acquireTokenSilent(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E5F5002-83EA-46F0-8BE0-AEA14C708845"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ionic-intune-test/Plugins/@ionic-enterprise/intune/IntunePlugin.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "_acquireToken(_:interactive:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

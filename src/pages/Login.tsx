@@ -17,16 +17,22 @@ const Login: React.FC = () => {
 
   const [version, setVersion] = useState<string | null>(null);
 
-  const IntuneMAM = (window as any).IntuneMAM as IntuneMAMPlugin;
-
   useEffect(() => {
     async function getVersion() {
+      const IntuneMAM = (window as any).IntuneMAM as IntuneMAMPlugin;
       setVersion((await IntuneMAM.sdkVersion()).version);
     }
-    getVersion();
+    document.addEventListener(
+      "deviceready",
+      async () => {
+        getVersion();
+      },
+      false
+    );
   });
 
   const login = useCallback(async () => {
+    const IntuneMAM = (window as any).IntuneMAM as IntuneMAMPlugin;
     var authInfo = await IntuneMAM.acquireToken({
       scopes: ["https://graph.microsoft.com/.default"],
     });
@@ -51,6 +57,7 @@ const Login: React.FC = () => {
   }, []);
 
   const showConsole = useCallback(async () => {
+    const IntuneMAM = (window as any).IntuneMAM as IntuneMAMPlugin;
     await IntuneMAM.displayDiagnosticConsole();
   }, []);
 

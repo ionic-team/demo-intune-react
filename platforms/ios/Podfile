@@ -2,7 +2,7 @@
 
 platform :ios, '11.0'
 
-target 'F:\GitHub\demo-intune\platforms\ios\ionic-intune-test' do
-	project 'F:\GitHub\demo-intune\platforms\ios\ionic-intune-test.xcodeproj'
+target 'ionic-intune-test' do
+	project 'ionic-intune-test.xcodeproj'
 
 end
