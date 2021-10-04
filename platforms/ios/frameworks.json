@@ -1,5 +1,5 @@
 {
-    "WebKit.framework": 2,
+    "WebKit.framework": 3,
     "AudioToolbox.framework": 1,
     "CoreServices.framework": 1,
     "ImageIO.framework": 1,

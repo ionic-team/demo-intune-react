@@ -1,0 +1,15 @@
+{
+  "client_id": "f80e2e59-01b2-4f88-be80-4895a63eae7e",
+  "authorization_user_agent": "DEFAULT",
+  "redirect_uri": "msauth://io.ionic.starter/uHU%2BUi09K1zPjWX4mZFggrgz%2Brk%3D",
+  "broker_redirect_uri_registered": true,
+  "authorities": [
+    {
+      "type": "AAD",
+      "audience": {
+        "type": "AzureADMyOrg",
+        "tenant_id": "453daf0a-cd18-4085-bfd7-fb9431630f11"
+      }
+    }
+  ]
+}

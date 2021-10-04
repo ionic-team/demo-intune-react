@@ -68,9 +68,9 @@
       "cordova-plugin-statusbar": {},
       "cordova-plugin-device": {},
       "cordova-plugin-splashscreen": {},
-      "cordova-plugin-ionic-webview": {},
       "cordova-plugin-ionic-keyboard": {},
-      "@ionic-enterprise/intune": {}
+      "@ionic-enterprise/intune": {},
+      "cordova-plugin-ionic-webview": {}
     },
     "platforms": [
       "android",
@@ -78,10 +78,10 @@
     ]
   },
   "devDependencies": {
-    "@ionic-enterprise/intune": "file:../../git/enterprise-intune/packages/intune",
+    "@ionic-enterprise/intune": "file:../enterprise-intune/packages/intune",
     "cordova-plugin-device": "2.0.2",
     "cordova-plugin-ionic-keyboard": "^2.0.5",
-    "cordova-plugin-ionic-webview": "^4.0.0",
+    "cordova-plugin-ionic-webview": "^5.0.0",
     "cordova-plugin-splashscreen": "5.0.2",
     "cordova-plugin-statusbar": "2.4.2",
     "cordova-plugin-whitelist": "1.3.3"
