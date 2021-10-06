@@ -2,7 +2,7 @@
 
 This is a demo (written React) that demonstrates how to use Ionic's Intune integration to add Microsoft Intune policy protection and broker-based authentication to obtain access tokens to Microsoft services.
 
-See ionic-team/demo-intune-angular for a demo using Angular (Capacitor only).
+See [ionic-team/demo-intune-angular](https://github.com/ionic-team/demo-intune-angular) for a demo using Angular (Capacitor only).
 
 ## Capacitor and Cordova
 
