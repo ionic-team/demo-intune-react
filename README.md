@@ -8,4 +8,4 @@ See [ionic-team/demo-intune-angular](https://github.com/ionic-team/demo-intune-a
 
 This demo has Capacitor and Cordova examples. We _strongly_ recommend teams build with [Capacitor](https://capacitorjs.com/).
 
-To see the Cordova demo, access the `cordova` branch.
+To see the Cordova demo, access the [cordova](https://github.com/ionic-team/demo-intune-react/tree/cordova) branch.
