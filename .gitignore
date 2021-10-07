@@ -2,6 +2,8 @@
 
 # dependencies
 plugins/
+platforms/
+
 /node_modules
 /.pnp
 .pnp.js

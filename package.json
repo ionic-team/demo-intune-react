@@ -5,9 +5,11 @@
   "dependencies": {
     "@ionic/react": "^5.5.0",
     "@ionic/react-router": "^5.5.0",
+    "@ionic-enterprise/intune": "^1.3.0",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.6.3",
+    "@ionic-enterprise/intune": "^1.3.0",
     "@types/jest": "^26.0.20",
     "@types/node": "^12.19.15",
     "@types/react": "^16.14.3",
@@ -15,7 +17,6 @@
     "@types/react-router": "^5.1.11",
     "@types/react-router-dom": "^5.1.7",
     "cordova-android": "^10.1.1",
-    "cordova-ios": "^6.2.0",
     "ionicons": "^5.4.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -69,7 +70,12 @@
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-keyboard": {},
       "cordova-plugin-ionic-webview": {},
-      "@ionic-enterprise/intune": {}
+      "@ionic-enterprise/intune": {
+        "INTUNE_CLIENT_ID": "f80e2e59-01b2-4f88-be80-4895a63eae7e",
+        "INTUNE_ADAL_AUTHORITY": "https://login.microsoftonline.com/453daf0a-cd18-4085-bfd7-fb9431630f11",
+        "INTUNE_REDIRECT_URI_IOS": "msauth.io.ionic.intuneDemo2://auth",
+        "INTUNE_SIGNATURE_HASH": "5Lmt5lmx4ECI4NqjLePe1rm/ji0="
+      }
     },
     "platforms": [
       "android",
@@ -77,7 +83,8 @@
     ]
   },
   "devDependencies": {
-    "@ionic-enterprise/intune": "^1.2.2-next.1",
+    "@ionic-enterprise/intune": "file:../enterprise-intune/packages/intune",
+    "cordova-ios": "^6.2.0",
     "cordova-plugin-device": "2.0.2",
     "cordova-plugin-ionic-keyboard": "^2.0.5",
     "cordova-plugin-ionic-webview": "^5.0.0",
