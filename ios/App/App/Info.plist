@@ -82,16 +82,22 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
-    <key>IntuneMAMSettings</key>
-    <dict>
-        <key>AutoEnrollOnLaunch</key>
-        <true />
-        <key>ADALClientId</key>
-        <string>f80e2e59-01b2-4f88-be80-4895a63eae7e</string>
-        <key>ADALAuthority</key>
-        <string>https://login.microsoftonline.com/453daf0a-cd18-4085-bfd7-fb9431630f11</string>
-        <key>ADALRedirectUri</key>
-        <string>msauth.io.ionic.intuneDemo2://auth</string>
-    </dict>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Access photos</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Take photos</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Photo access</string>
+	<key>IntuneMAMSettings</key>
+	<dict>
+		<key>AutoEnrollOnLaunch</key>
+		<true/>
+		<key>ADALClientId</key>
+		<string>f80e2e59-01b2-4f88-be80-4895a63eae7e</string>
+		<key>ADALAuthority</key>
+		<string>https://login.microsoftonline.com/453daf0a-cd18-4085-bfd7-fb9431630f11</string>
+		<key>ADALRedirectUri</key>
+		<string>msauth.io.ionic.intuneDemo2://auth</string>
+	</dict>
 </dict>
 </plist>

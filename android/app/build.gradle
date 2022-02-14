@@ -41,14 +41,6 @@ dependencies {
 
 apply plugin: 'com.microsoft.intune.mam'
 
-intunemam {
-    includeExternalLibraries = [
-            "androidx.*",
-            "com.getcapacitor.*"
-    ]
-}
-
-
 apply from: 'capacitor.build.gradle'
 
 try {

@@ -18,6 +18,9 @@ import {
   IntuneMAMUser,
   IntuneMAMVersionInfo,
 } from "@ionic-enterprise/intune";
+
+import { Camera, CameraResultType } from '@capacitor/camera';
+
 import "./Home.css";
 
 const Home: React.FC = () => {
@@ -89,12 +92,30 @@ const Home: React.FC = () => {
     await IntuneMAM.displayDiagnosticConsole();
   }, []);
 
+  const refreshToken = useCallback(async () => {
+    console.log("Refreshing token", user);
+    if (user && user.upn) {
+      const tokenInfo = await IntuneMAM.acquireTokenSilent({
+        scopes: ["https://graph.microsoft.com/.default"],
+        ...user,
+      });
+      setTokenInfo(tokenInfo);
+    }
+  }, [user]);
+
   const logout = useCallback(async () => {
     if (user) {
       await IntuneMAM.deRegisterAndUnenrollAccount(user);
     }
     history.replace("/");
   }, [user]);
+
+  const takePicture = useCallback(async () => {
+    const photo = await Camera.getPhoto({
+      resultType: CameraResultType.DataUrl
+    });
+    console.log('Got photo', photo);
+  }, []);
 
   return (
     <IonPage>
@@ -127,7 +148,9 @@ const Home: React.FC = () => {
           style={{ height: "200px", width: "100%", display: "block" }}
           value={JSON.stringify(appConfig ?? {}, null, 2)}
         />
+        <IonButton onClick={takePicture}>Take Picture</IonButton>
         <IonButton onClick={showConsole}>Show Diagnostics Console</IonButton>
+        <IonButton onClick={refreshToken}>Refresh Token</IonButton>
         <IonButton onClick={logout}>Log out</IonButton>
       </IonContent>
     </IonPage>

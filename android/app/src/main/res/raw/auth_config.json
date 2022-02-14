@@ -1,8 +1,9 @@
 {
   "client_id": "f80e2e59-01b2-4f88-be80-4895a63eae7e",
   "authorization_user_agent": "DEFAULT",
-  "redirect_uri": "msauth://io.ionic.starter/uHU%2BUi09K1zPjWX4mZFggrgz%2Brk%3D",
+  "redirect_uri": "msauth://io.ionic.starter/5Lmt5lmx4ECI4NqjLePe1rm%2Fji0%3D",
   "broker_redirect_uri_registered": true,
+  "client_capabilities": "protapp",
   "authorities": [
     {
       "type": "AAD",

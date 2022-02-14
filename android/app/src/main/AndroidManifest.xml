@@ -30,6 +30,14 @@
         android:name="com.ionicframework.intune.IntuneApplication"
         >
 
+        <meta-data
+          android:name="com.microsoft.intune.mam.aad.Authority"
+          android:value="https://login.microsoftonline.com/453daf0a-cd18-4085-bfd7-fb9431630f11/v2.0" />
+        <meta-data
+          android:name="com.microsoft.intune.mam.aad.ClientID"
+          android:value="f80e2e59-01b2-4f88-be80-4895a63eae7" />
+
+
         <activity
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode"
             android:name="io.ionic.starter.MainActivity"
@@ -64,7 +72,7 @@
                 -->
                 <data
                     android:host="io.ionic.starter"
-                    android:path="/uHU+Ui09K1zPjWX4mZFggrgz+rk="
+                    android:path="/5Lmt5lmx4ECI4NqjLePe1rm/ji0="
                     android:scheme="msauth" />
             </intent-filter>
         </activity>
@@ -83,4 +91,6 @@
     <!-- Permissions -->
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 </manifest>
